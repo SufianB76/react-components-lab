@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+section {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+section .weather {
+  border: 1px solid #ccc;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.weather span {
+  font-weight: bold;
+}
+
+  
